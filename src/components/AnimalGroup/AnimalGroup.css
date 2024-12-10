@@ -1,0 +1,35 @@
+.animalGroup__container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+    gap: 15px;
+}
+
+
+.card__container{
+    width: 90%;
+    border: 1px solid var(--gold);
+}
+
+
+@media (min-width : 550px){
+    .animalGroup__container{
+        flex-direction: row;
+    }
+    .card__container{
+        width: 40%;
+        height: 100%;
+        
+    }
+
+}
+
+@media (min-width: 800px){
+    .card__container{
+        width: 27%;
+    }
+}
+

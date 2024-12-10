@@ -8,21 +8,28 @@ import CardActionArea from '@mui/material/CardActionArea';
 
 export default function SpeciesCard({name, description,image}) {
   return (
-    <Card>
-      <CardActionArea>
+    <Card sx={{
+       height : "550px",
+       overflow : 'hidden'
+    }}>
+      <CardActionArea sx={{
+        
+        outline : 'none' 
+      }}>
         <CardMedia
           component="img"
-          height="140"
+          height="250"
           image={image}
           alt={name}
 
           sx={{
             width : '100%',
+            height : '250px',
             objectFit : 'cover',
-        
+            margin : '0'
           }}
         />
-        <CardContent>
+        <CardContent >
           <Typography gutterBottom variant="h5" component="div">
             {name}
           </Typography>

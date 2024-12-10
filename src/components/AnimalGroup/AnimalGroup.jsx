@@ -1,4 +1,5 @@
 import SpeciesCard from "../SpeciesCard/SpeciesCard";
+import './AnimalGroup.css'
 
 const AnimalGroup = ({ animals }) => {
   return (

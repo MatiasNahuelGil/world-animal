@@ -126,7 +126,7 @@ export default function SearchAppBar() {
             component="div"
             sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}
           >
-            Animal Flix
+            World Animal
           </Typography>
           {/* Barra de búsqueda */}
           <Search>

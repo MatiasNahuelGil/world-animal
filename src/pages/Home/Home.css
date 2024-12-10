@@ -3,22 +3,14 @@
     background-repeat: no-repeat;
 }
 
-.animalGroup__container{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
+.section__container{
+    padding: 2em;
 }
+
 
 .underline{
     padding-top: 2.5em;
     border-top: 2px solid var(--gold);
-}
-
-.card__container{
-    border: 1px solid var(--gold);
 }
 
 .none{
@@ -32,20 +24,7 @@
     .none{
         display: initial;
     }
-    .animalGroup__container{
-        flex-direction: row;
-    }
-    .card__container{
-        width: 40%;
-        height: 100%;
-        
-    }
 
 }
 
 
-@media (min-width: 800px){
-    .card__container{
-        width: 27%;
-    }
-}
