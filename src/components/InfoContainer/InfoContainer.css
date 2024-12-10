@@ -1,0 +1,31 @@
+.box{
+    padding: 1em; 
+}
+
+.border{
+    border: 5px solid var(--gold);
+}
+
+.box div{
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+    height: auto;
+}
+
+.box div button{
+    padding: 10px;
+    width: 40%;
+    background: transparent;
+    color: var(--white);
+    outline: none;
+    cursor: pointer;
+    border: 1px solid var(--white);
+}
+
+
+@media (min-width: 550px){
+    .box{
+        width: 50%;
+    }
+}

@@ -1,0 +1,12 @@
+:root{
+  --font : "Merriweather";
+  --white : #fffafa;
+  --gold  : rgb(184, 170, 51);
+  --black : #292727;
+}
+
+
+body{
+  background-color: var(--black);
+  color: var(--white);
+}

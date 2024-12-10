@@ -1,0 +1,13 @@
+.footer{
+    padding: 1em;
+    border-top: 3px solid var(--white);
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.networks__container{
+    font-size: 30px;
+}
+

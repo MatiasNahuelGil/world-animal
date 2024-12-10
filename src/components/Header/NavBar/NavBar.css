@@ -1,0 +1,10 @@
+.list-item{
+    padding: 0.5em;
+    background-color: black;
+    border: 2px solid var(--gold);
+    transition: all .5 ease;
+}
+
+.list-item:hover{
+  background-color: rgba(0, 0, 0, 0.822);
+}
