@@ -8,7 +8,7 @@ export default function Footer(){
         <>
            <footer className="footer">
               <div>
-                  <h3>Animal Flix</h3>
+                  <h3>World Animal</h3>
               </div>
               <div className='networks__container'>
                     <FaGithubSquare/>
